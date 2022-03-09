@@ -173,11 +173,13 @@
         <a id="contact"></a>
         <div class="feedback">
             <h1>Give us a good news</h1>
-            <input type="text" placeholder="Name" pattern="[a-zA-Zа-яА-Я]+">
-            <input type="text" placeholder="Email" pattern="^([a-z0-9_-]+\.)*[a-z0-9_-]+@[a-z0-9_-]+(\.[a-z0-9_-]+)*\.[a-z]{2,6}$">
-            <input type="text" placeholder="Subject">
-            <textarea placeholder="Your message"></textarea>
-            <button>Submit</button>
+            <form method="post">
+                <input type="text" placeholder="Name" pattern="[a-zA-Zа-яА-Я]+">
+                <input type="text" placeholder="Email" pattern="^([a-z0-9_-]+\.)*[a-z0-9_-]+@[a-z0-9_-]+(\.[a-z0-9_-]+)*\.[a-z]{2,6}$">
+                <input type="text" placeholder="Subject">
+                <textarea placeholder="Your message"></textarea>
+                <button type="submit">Submit</button>
+            </form>
         </div>
         <div class="clients">
             <h1>Our happy client</h1>
