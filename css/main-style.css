@@ -1,0 +1,654 @@
+body {
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #eee;
+}
+
+.navbar {
+    background-color: #311d5e;
+    display: inline-block;
+    justify-content: space-between;
+    width: inherit;
+    padding: 0;
+}
+
+.logo {
+    position: absolute;
+    height: 10px;
+    left: 20px;
+}
+
+.logo img {
+    display: inline-block;
+    position: relative;
+    bottom: 10px;
+}
+
+.logo p {
+    display: inline-block;
+    position: relative;
+    bottom: 20px;
+    color: #00dfcf;
+    font-family: Roboto, serif;
+    font-weight: lighter;
+    font-size: 32px;
+}
+
+.navbar nav {
+    display: inline-block;
+}
+
+.menu {
+    margin: 0 0 0 700px;
+    list-style: none;
+    display: flex;
+}
+
+.menu li {
+    padding: 20px;
+}
+
+.menu li a {
+    color: #eee;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+
+.menu li ul {
+    display: none;
+}
+
+.menu li:hover ul {
+    display:block;
+    position: absolute;
+}
+
+.menu li.selected {
+    background-color: #ff3333;
+}
+
+.menu li:hover a,
+.menu li a:focus{
+    text-decoration: underline;
+}
+
+.title {
+    display: grid;
+    position: relative;
+    height: 100vh;
+}
+
+.fimg {
+    position: relative;
+    display: inline-block;
+    height: 100vh;
+}
+
+.fimg img,
+.filter {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.filter {
+    position: absolute;
+    background-color: #311d5ebb;
+}
+
+.info {
+    display: grid;
+    top: 15%;
+    padding: 20px;
+    justify-self: center;
+    justify-items: center;
+    align-items: center;
+    position: absolute;
+}
+
+.info hr {
+    padding-left: 5%;
+}
+
+.info h1 {
+    padding-top: 30px;
+    color: white;
+    font-family: Playfair, serif;
+    font-size: 32px;
+}
+
+.info p {
+    color: white;
+    font-family: Roboto, serif;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.info button {
+    width: 130px;
+    height: 40px;
+    text-transform: uppercase;
+    background-color: transparent;
+    border-color: #00dfcf;
+    border-style: solid;
+    border-width: 1px;
+    font-family: Roboto, serif;
+    font-weight: bold;
+    color: #00dfcf;
+    font-size: 14px;
+}
+
+.info button:hover {
+    border-style: groove;
+    border-width: 3px;
+    font-style: italic;
+}
+
+.companyStory {
+    position: relative;
+    height: 100vh;
+    background-color: white;
+}
+
+.textStory {
+    display: block;
+    height: 50vh;
+}
+
+.textStory img {
+    height: 200px;
+    width: 250px;
+    display: inline-block;
+    position: relative;
+    margin-left: 18%;
+}
+
+.story {
+    display: inline-block;
+    position: relative;
+    left: 150px;
+    width: 600px
+}
+
+.story h2 {
+    text-transform: uppercase;
+    font-family: Playfair, serif;
+    font-weight: bold;
+}
+
+.story p {
+    display: block;
+    margin: auto;
+    font-family: Roboto, serif;
+    font-size: 14px;
+    font-weight: lighter;
+    height: 160px;
+}
+
+.story button {
+    width: 130px;
+    height: 40px;
+    text-transform: uppercase;
+    background-color: transparent;
+    border-color: #00dfcf;
+    border-style: solid;
+    border-width: 1px;
+    font-family: Roboto, serif;
+    font-weight: bold;
+    color: #00dfcf;
+    font-size: 16px;
+}
+
+.story button:hover {
+    border-style: groove;
+    border-width: 3px;
+    font-style: italic;
+}
+
+.videoStory {
+    position: relative;
+    height: 50vh;
+}
+
+.videoStory video {
+    object-fit: contain;
+    height: 50vh;
+    width: 100%;
+}
+
+.expertise {
+    position: relative;
+    height: 100vh;
+    background-color: white;
+}
+
+.expertiseInfo {
+    height: 20vh;
+    position: relative;
+}
+
+.expertiseInfo h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Playfair, serif;
+    font-size: 22px;
+    padding-top: 40px;
+    color: black;
+}
+
+.expertiseInfo p {
+    text-align: center;
+    font-family: Playfair, serif;
+    font-size: 12px;
+    color: #2f2d35;
+}
+
+.expertiseInfo hr {
+    margin-top: 30px;
+    width: 80px;
+}
+
+.infobar {
+    position: absolute;
+    padding-left: 250px;
+    padding-right: 100px;
+    padding-top: 20px;
+}
+
+.infobarElement {
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    margin: 25px 15px;
+}
+
+.infobarElement h3 {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Roboto, serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+}
+
+.infobarElement p {
+    text-align: center;
+    font-family: Roboto, serif;
+    font-size: 14px;
+    font-weight: lighter;
+    color: #333333;
+}
+
+.infobarElement img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.teamInfo {
+    display: grid;
+    position: relative;
+    height: 100vh;
+}
+
+.teamInfoText {
+    position: absolute;
+    justify-self: center;
+}
+
+.teamInfoText h1 {
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    font-family: Playfair, serif;
+    font-size: 22px;
+    padding-top: 40px;
+    color: white;
+}
+
+.teamInfoText p {
+    text-align: center;
+    font-family: Playfair, serif;
+    font-size: 12px;
+    color: white;
+}
+
+.teamInfoText hr {
+    margin-top: 30px;
+    width: 80px;
+}
+
+.persons {
+    position: absolute;
+    justify-self: center;
+    align-self: center;
+}
+
+.person {
+    position: relative;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    margin: 25px 15px;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.person img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 150px;
+    border-bottom-color: white;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+.person h4 {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Roboto, serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+}
+
+.person p {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Roboto, serif;
+    font-size: 13px;
+    font-weight: lighter;
+    color: white;
+}
+
+.hiringInfo {
+    position: absolute;
+    align-self: end;
+    justify-self: center;
+    bottom: 100px;
+}
+
+.hiringInfo p {
+    text-align: center;
+    font-family: Roboto, serif;
+    font-weight: lighter;
+    font-size: 14px;
+    color: white;
+}
+
+.hiringInfo button {
+    width: 130px;
+    height: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+    background-color: transparent;
+    border-color: #00dfcf;
+    border-style: solid;
+    border-width: 1px;
+    font-family: Roboto, serif;
+    font-weight: bold;
+    color: #00dfcf;
+    font-size: 14px;
+}
+
+.hiringInfo button:hover {
+    border-style: groove;
+    border-width: 3px;
+    font-style: italic;
+}
+
+.works {
+    position: relative;
+    height: 100vh;
+    background-color: white;
+}
+
+.worksInfo {
+    display: block;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.worksInfo h1 {
+    display: inline;
+    margin-left: 25%;
+    text-transform: uppercase;
+    font-family: Playfair, serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: black;
+}
+
+.worksInfo p {
+    display: inline;
+    margin-left: 30%;
+}
+
+.worksInfo p a {
+    text-decoration: none;
+    font-family: Roboto, serif;
+    font-size: 14px;
+    font-weight: lighter;
+    color: #413d4b;
+}
+
+.worksInfo p a:hover {
+    text-decoration: underline;
+}
+
+.worksBar {
+    display: inline-block;
+    padding-left: 7px;
+    padding-bottom: 70px;
+}
+
+.worksBar img {
+    display: inline-block;
+    width: 210px;
+    height: 210px;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.worksBar img:hover {
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.works button {
+    width: 130px;
+    height: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+    background-color: transparent;
+    border-color: #00dfcf;
+    border-style: solid;
+    border-width: 1px;
+    font-family: Roboto, serif;
+    font-weight: bold;
+    color: #00dfcf;
+    font-size: 14px;
+}
+
+.works button:hover {
+    border-style: groove;
+    border-width: 3px;
+    font-style: italic;
+}
+
+.summary {
+    position: relative;
+    height: 100vh;
+    background-color: white;
+}
+
+.summary h1 {
+    display: inline-block;
+    padding-top: 30px;
+    padding-left: 30%;
+    text-transform: uppercase;
+    font-family: Playfair, serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: black;
+}
+
+.feedback {
+    display: inline-block;
+    float: left;
+    width: 50vw;
+}
+
+.feedback input {
+    display: block;
+    margin-top: 30px;
+    margin-left: 30%;
+    margin-right: 0;
+    width: 410px;
+    height: 30px;
+    font-family: Roboto, serif;
+    font-size: 14px;
+}
+
+.feedback textarea {
+    display: block;
+    margin-top: 30px;
+    margin-left: 30%;
+    margin-right: 0;
+    width: 410px;
+    height: 300px;
+    font-family: Roboto, serif;
+    font-size: 14px;
+}
+
+.feedback button {
+    display: block;
+    margin-top: 30px;
+    margin-left: 30%;
+}
+
+.feedback button {
+    width: 130px;
+    height: 40px;
+    display: block;
+    text-transform: uppercase;
+    background-color: transparent;
+    border-color: #00dfcf;
+    border-style: solid;
+    border-width: 1px;
+    font-family: Roboto, serif;
+    font-weight: bold;
+    color: #00dfcf;
+    font-size: 14px;
+}
+
+.feedback button:hover {
+    border-style: groove;
+    border-width: 3px;
+    font-style: italic;
+}
+input:invalid {
+    border-width: 2px;
+    border-style: solid;
+    border-color: red;
+}
+.clients {
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    gap: 20px;
+    width: 40vw;
+    float: right;
+}
+
+.clients h1 {
+    justify-self: left;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    padding: 30px 0 0 0;
+}
+
+.clients img {
+    display: grid;
+    width: 100px;
+    height: 100px;
+}
+
+.bottom {
+    height: 40vh;
+    position: relative;
+    background-color: white;
+}
+
+.fimgfooter {
+    position: relative;
+    display: inline-block;
+    height: 40vh;
+    width: 100%;
+}
+
+.fimgfooter img,
+.filter {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.bottomlogo {
+    position: absolute;
+    top: 60px;
+    left: 100px;
+}
+
+.bottomlogo p {
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    margin-top: 0;
+    margin-left: 10px;
+    color: #00dfcf;
+    font-family: Roboto, serif;
+    font-weight: lighter;
+    font-size: 32px;
+}
+
+.infofooter {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    display: block;
+    width: 300px;
+    height: 100px;
+}
+
+.infofooter p {
+    color: white;
+    font-size: 14px;
+    font-family: Roboto, serif;
+    font-weight: lighter;
+}
+
+@font-face {
+font-family: "Playfair";
+src: url("../fonts/playfair/PlayfairDisplay-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}

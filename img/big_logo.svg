@@ -1,0 +1,19 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+	<title>Vector Smart Object-ai</title>
+	<style>
+		.s0 { fill: #595b61 } 
+		.s1 { fill: #46acd2 } 
+		.s2 { fill: #55ccc3 } 
+		.s3 { fill: #20205e } 
+		.s4 { fill: #15172c } 
+	</style>
+	<g id="Layer 1">
+		<path id="&lt;Path&gt;" class="s0" d="" />
+		<path id="&lt;Path&gt;" class="s1" d="m442.2 304.4l-25.8 20.7v-101.6z" />
+		<path id="&lt;Path&gt;" class="s2" d="m467.9 304.4h-25.7l-25.8-80.9" />
+		<path id="&lt;Path&gt;" class="s2" d="m467.9 304.4l-51.5-80.9" />
+		<path id="&lt;Path&gt;" class="s3" d="m416.4 223.5v101.6l-25.7-20.7z" />
+		<path id="&lt;Path&gt;" class="s4" d="m416.4 223.5l-25.7 80.9h-25.8" />
+		<path id="&lt;Path&gt;" class="s4" d="m364.9 304.4l51.5-80.9" />
+	</g>
+</svg>
