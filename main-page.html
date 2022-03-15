@@ -15,7 +15,7 @@
             </div>
             <nav>
                 <ul class="menu">
-                    <li class="selected"><a href="/">Home</a></li>
+                    <li class="selected"><a href="/main-page.html">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#expertise">Expertise</a></li>
                     <li><a href="#teams">Teams</a></li>
@@ -46,20 +46,27 @@
             <div class="story">
                 <h2>Our story</h2>
                 <p>
-                    Very exciting and interesting story could be here Very exciting and interesting story could be here Very exciting and interesting story could be here
-                    Very exciting and interesting story could be here Very exciting and interesting story could be here Very exciting and interesting story could be here
-                    Very exciting and interesting story could be here Very exciting and interesting story could be here Very exciting and interesting story could be here
+                    Very exciting and interesting story could be here Very exciting and interesting story could be here
+                    Very exciting and interesting story could be here
+                    Very exciting and interesting story could be here Very exciting and interesting story could be here
+                    Very exciting and interesting story could be here
+                    Very exciting and interesting story could be here Very exciting and interesting story could be here
+                    Very exciting and interesting story could be here
                     <br>
                     <br>
-                    Very exciting and interesting story could be here Very exciting and interesting story could be here Very exciting and interesting story could be here
-                    Very exciting and interesting story could be here Very exciting and interesting story could be here Very exciting and interesting story could be here
+                    Very exciting and interesting story could be here Very exciting and interesting story could be here
+                    Very exciting and interesting story could be here
+                    Very exciting and interesting story could be here Very exciting and interesting story could be here
+                    Very exciting and interesting story could be here
                 </p>
                 <button>Learn more</button>
             </div>
         </div>
         <div class="videoStory">
             <span class="filter"></span>
-            <video controls="controls" src="https://www.youtube.com/watch?v=QFEhJfUcD1Q&ab_channel=DJKENNAON"></video>
+            <video muted="muted" loop="loop" autoplay>
+                <source src="./img/clouds.mp4" type="video/mp4">
+            </video>
         </div>
     </div>
     <div class="expertise">
@@ -73,32 +80,32 @@
             <div class="infobarElement">
                 <img src="./img/monitor.png" alt="Упс">
                 <h3>Web design & development</h3>
-                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+                <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
             </div>
             <div class="infobarElement">
                 <img src="./img/paintbrush.png" alt="Упс">
                 <h3>Branding identity</h3>
-                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+                <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
             </div>
             <div class="infobarElement">
                 <img src="./img/graphical.png" alt="Упс">
                 <h3>Mobile app</h3>
-                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+                <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
             </div>
             <div class="infobarElement">
                 <img src="./img/circular228.png" alt="Упс">
                 <h3>Search engine optimization</h3>
-                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+                <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
             </div>
             <div class="infobarElement">
                 <img src="./img/games.png" alt="Упс">
                 <h3>Game development</h3>
-                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+                <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
             </div>
             <div class="infobarElement">
                 <img src="./img/like.png" alt="Упс">
                 <h3>Made with love</h3>
-                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+                <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
             </div>
         </div>
     </div>
@@ -175,7 +182,8 @@
             <h1>Give us a good news</h1>
             <form method="post">
                 <input type="text" placeholder="Name" pattern="[a-zA-Zа-яА-Я]+">
-                <input type="text" placeholder="Email" pattern="^([a-z0-9_-]+\.)*[a-z0-9_-]+@[a-z0-9_-]+(\.[a-z0-9_-]+)*\.[a-z]{2,6}$">
+                <input type="text" placeholder="Email"
+                       pattern="^([a-z0-9_-]+\.)*[a-zA-Z0-9_-]+@[a-zA-Z0-9_-]+(\.[a-z0-9_-]+)*\.[a-z]{2,6}$">
                 <input type="text" placeholder="Subject">
                 <textarea placeholder="Your message"></textarea>
                 <button type="submit">Submit</button>
@@ -183,8 +191,6 @@
         </div>
         <div class="clients">
             <h1>Our happy client</h1>
-            <img src="./img/logo.jpg" alt="Лого">
-            <img src="./img/logo.jpg" alt="Лого">
             <img src="./img/logo.jpg" alt="Лого">
             <img src="./img/logo.jpg" alt="Лого">
             <img src="./img/logo.jpg" alt="Лого">
@@ -205,7 +211,17 @@
             <p>tajam</p>
         </div>
         <div class="infofooter">
-        <p>lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh elit. Duis sed odio sit amet auctror a ornare odio non mauris vitae erat in elit</p>
+            <p>lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh elit. Duis sed odio sit amet
+                auctror a ornare odio non mauris vitae erat in elit</p>
+        </div>
+        <div class="links">
+            <!-- img source: https://fontawesome.com/ -->
+            <img src="./img/brands/vk.svg" alt="logo">
+            <img src="./img/brands/instagram.svg" alt="logo">
+            <img src="./img/brands/github.svg" alt="logo">
+            <img src="./img/brands/bitbucket.svg" alt="logo">
+            <img src="./img/brands/twitter.svg" alt="logo">
+            <img src="./img/brands/youtube.svg" alt="logo">
         </div>
     </div>
 </footer>
